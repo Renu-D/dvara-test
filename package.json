@@ -1,0 +1,22 @@
+{
+  "name": "dvara",
+  "version": "1.0.0",
+  "description": "Dvara E-Dairy (Formerly IFMR Trust) ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node -r esm src/index.js"
+  },
+  "author": "Renu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "firebase": "^7.15.1",
+    "log4js": "^6.3.0",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.18"
+  }
+}
